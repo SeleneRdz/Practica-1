@@ -1,0 +1,18 @@
+<style>
+  p
+  {
+      font-size: 2em;
+  }
+  body
+  {
+    background-color: #435ba9;
+  }
+  .importante
+  {
+    text-decoration: underline;
+  }
+  .subtema
+  {
+    text-transform: uppercase;
+  }
+</style>

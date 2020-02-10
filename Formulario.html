@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Formulario </title>
+  </head>
+
+  <body>
+    <FONT FACE="Arial">
+    <ul>
+      <FONT SIZE="5">
+        <li> <a href="index.html"> Inicio </a> </li>
+        <li> <a href="formulario.html"> Formulario </a> </li>
+      </FONT>
+    </ul>
+    <FONT FACE="Californian FB">
+      <h1><center> Contacto </center></h1>
+      <hr>
+      <form action="Procesa.php" method="post">
+          <label for="nombre">NOMBRE COMPLETO:</label>
+            <input type="text" name="nombre" placeholder="Nombre completo"><br><br>
+          <label for="correo">CORREO:</label>
+            <input type="email" name="correo" placeholder="Correo" required><br><br>
+          <label for="carrera">CARRERA:</label>
+            <select name="carrera">
+              <option value="indu"> INDU </option>
+              <option value="inco"> INCO </option>
+              <option value="ince"> INCE </option>
+              <option value="info"> INFO </option>
+              <option value="inbi"> INBI </option>
+            </select>
+          <br><br>
+          <label for="genero">GENERO:</label>
+            <br>
+            <input type="Radio" name="genero" value="Hombre">Hombre<br>
+            <input type="Radio" name="genero" value="Mujer">Mujer<br>
+            <input type="Radio" name="genero" value="Otro">Otro<br><br>
+          <label for="contraseña">CONTRASEÑA:</label>
+            <input type="password" name="contraseña" placeholder="Contraseña"><br><br>
+      <label for="opinion">OPINION:</label>
+        <br>
+        <textarea name="opinion" rows="8" cols="80"></textarea><br><br>
+      <label for="boletin">Recibir boletín</label>
+        <input type="checkbox" name="boletin" value="1"> <br> <br>
+      <label for="fecha">FECHA:</label>
+        <input type="date" name="fecha"> <br><br>
+      <label for="numero">PROMEDIO:</label>
+        <input type="number" name="numero" min="60" max="100"> <br><br>
+        <button type="submit" name="button">Enviar</button> <br><br>
+      </form>
+    </FONT>
+    </FONT>
+  </body>
+</html>
